@@ -46,8 +46,8 @@ end
 
 def select(array)
   array.each do |number|
-  end
-  puts array
+  puts number  
+ end
 end
 
 select [1, 2, 3, 4, 5]
