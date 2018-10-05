@@ -50,8 +50,8 @@ def select(array)
     if number.even?
       new_array << number
     end
+  end
     puts new_array
- end
 end
 
 select [1, 2, 3, 4, 5]
