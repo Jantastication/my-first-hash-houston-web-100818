@@ -45,9 +45,11 @@ shipping_manifest
 end
 
 def select(array)
+  new_array = []
   array.each do |number|
     if number.even?
-     puts number
+      new_array << number
+    puts new_array
     end
  end
 end
