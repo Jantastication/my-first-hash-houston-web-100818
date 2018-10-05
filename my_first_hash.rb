@@ -49,8 +49,8 @@ def select(array)
   array.each do |number|
     if number.even?
       new_array << number
-    puts new_array
     end
+    puts new_array
  end
 end
 
