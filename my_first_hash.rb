@@ -51,7 +51,7 @@ def select(array)
       new_array << number
     end
   end
-    puts new_array
+    new_array
 end
 
 select [1, 2, 3, 4, 5]
