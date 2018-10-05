@@ -46,7 +46,8 @@ end
 
 def select(array)
   array.each do |number|
-  puts number  
+  number.even?
+  puts number.even?
  end
 end
 
